@@ -1,0 +1,26 @@
+.offset:before {
+    display: block;
+    content: "";
+    height: 4em;
+    margin-top: -4em;
+}
+
+.underline {
+    width: 3em;
+    height: .2em;
+    background-color: #0F5DD9;
+    margin: 0 auto;
+}
+
+#history-list {
+    list-style: none;
+  }
+  
+  #history-list li:before {
+    content: "\2022";
+    color: #0F5DD9;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em;
+  }
